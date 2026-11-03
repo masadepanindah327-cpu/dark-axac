@@ -13,14 +13,15 @@ module.exports = {
           primary: '#ff0033',   // Merah menyala untuk aksen
           primaryHover: '#cc0022',
           text: '#e2e8f0',
-          muted: '#71717a',
-          nsfw: '#f43f5e'       // Warna khusus untuk indikator NSFW
-        }
-      },
-      fontFamily: {
-        mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', "Liberation Mono", "Courier New", 'monospace'],
-      }
-    },
+      text: '#e2e8f0',
+      muted: '#71717a',
+      nsfw: '#f43f5e'
+    }
   },
-  plugins: [],
-}
+  fontFamily: {
+    mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', "Liberation Mono", "Courier New", 'monospace'],
+  },
+},
+plugins: [],
+  }
+  
