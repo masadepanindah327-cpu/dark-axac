@@ -1,4 +1,3 @@
--- components/Sidebar.jsx --
 "use client";
 import { Terminal, ShieldAlert, Cpu, Code2, Flame } from 'lucide-react';
 
