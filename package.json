@@ -1,4 +1,4 @@
--- package.json -- (TAMBAHKAN DEPENDENSI INI)
+-- package.json --
 {
   "name": "dark-axac",
   "version": "3.0.0",
