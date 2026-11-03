@@ -1,4 +1,3 @@
--- components/AxacEngine.jsx --
 "use client";
 import { useState, useRef } from 'react';
 import * as webllm from "@mlc-ai/web-llm";
