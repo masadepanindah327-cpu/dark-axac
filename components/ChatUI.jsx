@@ -1,4 +1,3 @@
--- components/ChatUI.jsx --
 "use client";
 import { useState, useRef, useEffect } from 'react';
 import AxacEngine from './AxacEngine';
