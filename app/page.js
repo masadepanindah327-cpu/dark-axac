@@ -44,7 +44,7 @@ export default function Home() {
           "Authorization": `Bearer ${apiKey}`
         },
         body: JSON.stringify({
-          model: "llama-3.1-8b-instant",
+          model: "llama3-8b-8192",
           messages: msgs,
           temperature: 0.99,
           max_tokens: 4096
