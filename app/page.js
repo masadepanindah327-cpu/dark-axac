@@ -44,7 +44,7 @@ export default function Home() {
           "Authorization": `Bearer ${apiKey}`
         },
         body: JSON.stringify({
-          model: "llama3-8b-8192",
+          model: "openai/gpt-oss-20b",
           messages: msgs,
           temperature: 0.99,
           max_tokens: 4096
