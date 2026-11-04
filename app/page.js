@@ -51,7 +51,7 @@ export default function Home() {
           "Authorization": `Bearer ${GROQ_API_KEY}`
         },
         body: JSON.stringify({
-          model: "llama3-70b-8192", // Model 70B, sangat pintar dan mudah dibypass
+          model: "llama-3.3-70b-versatile",
           messages: apiMessages,
           temperature: 0.99,       // Suhu maksimal untuk merusak pola aman
           max_tokens: 4096         // Token maksimal
